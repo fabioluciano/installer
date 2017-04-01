@@ -1,0 +1,14 @@
+{
+  "tabs": [
+    {
+      "id" : "repositories",
+      "name" : "Repositórios",
+      "icon" : "package"
+    },
+    {
+      "id" : "adjust",
+      "name" : "Ajustes",
+      "icon" : "package"
+    }
+  ]
+}
