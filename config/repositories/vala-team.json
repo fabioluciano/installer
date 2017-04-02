@@ -1,0 +1,7 @@
+{
+  "name": "Vala Team",
+  "ppa": "vala-team/ppa",
+  "packages": [
+    "valac"
+  ]
+}

@@ -1,4 +1,5 @@
 {
+  "name" : "Automatic installer",
   "tabs": [
     {
       "id" : "repositories",
@@ -8,7 +9,7 @@
     {
       "id" : "adjust",
       "name" : "Ajustes",
-      "icon" : "package"
+      "icon" : "configure"
     }
   ]
 }

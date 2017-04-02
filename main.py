@@ -4,11 +4,13 @@ from gi.repository import Gtk, Gio
 import sys
 from lib.interface.header import Header
 from lib.interface.notebook import Notebook
+from lib.util.util import Util
 
 class Window(Gtk.ApplicationWindow):
   def __init__(self, application):
-    Gtk.ApplicationWindow.__init__(self, title="Testando headerbar", application=application)
-    self.set_default_size(600, 400)
+    app_config = Util.load_application_configuration()
+    Gtk.ApplicationWindow.__init__(self, title=app_config['name'], application=application)
+    self.set_default_size(600, 600)
 
 class Application(Gtk.Application):
   def __init__(self):
